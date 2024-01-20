@@ -17,3 +17,5 @@
 ## Setup
 Clone the repository, open `index.html` in a web browser, and interact with BoredBot to find an activity to do.
 
+## Demo
+[View Live Project](https://fascinating-rugelach-29bc7e.netlify.app/)
