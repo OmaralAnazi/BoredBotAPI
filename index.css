@@ -1,0 +1,55 @@
+:root {
+    font-size: 64px;
+} 
+
+body {
+    /* uigradients.com */
+    background: #bdc3c7;  
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  
+    background: linear-gradient(to top, #2c3e50, #bdc3c7); 
+    background-repeat: no-repeat;
+    max-height: 100vh;
+
+    text-align: center;
+    font-family: Oxygen, sans-serif;
+}
+
+h2,
+h4, 
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.75rem;
+    line-height: 1.3;
+}
+
+button {
+    min-width: 150px;
+    min-height: 150px;
+    width: 8vw;
+    height: 8vw;
+    max-width: 350px;
+    max-height: 350px;
+
+    border-radius: 50%;
+    background-color: #ba0000;
+    border: 2px solid darkred;
+    cursor: pointer;
+
+    margin: 1rem 0;
+}
+
+#activity-container {
+    display: none; /* will be changed by js */
+
+    width: 50vw;
+    margin: 0 auto;
+    color: whitesmoke;
+    padding: 0.25em;
+
+    background: #bdc3c7;  
+    background: -webkit-linear-gradient(#09233c, #0b1927);  
+    background: linear-gradient(#09233c, #0b1927); 
+    border: 2px solid #041f39;
+    border-radius: 30px;
+}
